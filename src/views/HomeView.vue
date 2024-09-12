@@ -3,7 +3,5 @@
 </script>
 
 <template>
-  <main>
-
-  </main>
+  <h1>INDEX page</h1>
 </template>
