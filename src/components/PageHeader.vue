@@ -1,12 +1,20 @@
 <script setup>
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
+
+const goTo = (routeName) => {
+  router.push({ name: routeName })
+}
 </script>
 
 <template>
+
+
 <div class="header">
-  <div class="logo"><img src="https://picsum.photos/150/150" alt=""></div>
+  <div class="logo" @click="goTo('home')"><img src="https://picsum.photos/150/150" alt=""></div>
   <ul class="navLinks">
-    <li><a href="#" class="link">ABOUT</a></li>
+    <li @click="goTo('about')"><a href="#" class="link">ABOUT</a></li>
     <li><a href="#" class="link">NEWS</a></li>
     <li><a href="#" class="link">STAFF</a></li>
   </ul>
