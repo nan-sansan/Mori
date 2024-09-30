@@ -15,8 +15,8 @@ const goTo = (routeName) => {
   <div class="logo" @click="goTo('home')"><img src="https://picsum.photos/150/150" alt=""></div>
   <ul class="navLinks">
     <li @click="goTo('about')"><a href="#" class="link">ABOUT</a></li>
-    <li><a href="#" class="link">NEWS</a></li>
-    <li><a href="#" class="link">STAFF</a></li>
+    <li @click="goTo('news')"><a href="#" class="link">NEWS</a></li>
+    <li @click="goTo('products')"><a href="#" class="link">STAFF</a></li>
   </ul>
 </div>
 </template>
