@@ -9,8 +9,6 @@ const goTo = (routeName) => {
 </script>
 
 <template>
-
-
 <div class="header">
   <div class="logo" @click="goTo('home')"><img src="https://picsum.photos/150/150" alt=""></div>
   <ul class="navLinks">
@@ -21,12 +19,12 @@ const goTo = (routeName) => {
 </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .header{
   position: relative;
   top:0;
   margin: 0;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   background-color: rgb(105, 105, 105);
 }
