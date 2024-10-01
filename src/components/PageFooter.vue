@@ -14,7 +14,7 @@
 </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .footer{
   position: fixed;
   display: flex;
@@ -39,8 +39,5 @@
   background-color: #fff;
   width: 5vw;
   height: 1em;
-}
-.logo img{
-
 }
 </style>
